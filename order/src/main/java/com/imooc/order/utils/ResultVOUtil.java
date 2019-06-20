@@ -1,6 +1,6 @@
-package com.imooc.utils;
+package com.imooc.order.utils;
 
-import com.imooc.ResultVO.ResultVO;
+import com.imooc.order.ResultVO.ResultVO;
 
 /**
  * @Author: ZhuRuiJie

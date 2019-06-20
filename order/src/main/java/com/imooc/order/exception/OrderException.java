@@ -1,4 +1,4 @@
-package com.imooc.exception;
+package com.imooc.order.exception;
 
 import com.imooc.order.enums.ResultEnum;
 

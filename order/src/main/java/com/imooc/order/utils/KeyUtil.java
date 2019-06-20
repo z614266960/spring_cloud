@@ -1,7 +1,6 @@
-package com.imooc.utils;
+package com.imooc.order.utils;
 
 import java.util.Random;
-import java.util.UUID;
 
 /**
  * @Author: ZhuRuiJie

@@ -1,13 +1,13 @@
 package com.imooc.order.controller;
 
-import com.imooc.ResultVO.ResultVO;
-import com.imooc.converter.OrderForm2OrderDTOConverter;
-import com.imooc.dto.OrderDTO;
-import com.imooc.exception.OrderException;
+import com.imooc.order.ResultVO.ResultVO;
+import com.imooc.order.converter.OrderForm2OrderDTOConverter;
+import com.imooc.order.dto.OrderDTO;
+import com.imooc.order.exception.OrderException;
 import com.imooc.order.enums.ResultEnum;
 import com.imooc.order.form.OrderForm;
 import com.imooc.order.service.OrderService;
-import com.imooc.utils.ResultVOUtil;
+import com.imooc.order.utils.ResultVOUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.CollectionUtils;
@@ -17,7 +17,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.validation.Valid;
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
